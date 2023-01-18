@@ -1,5 +1,5 @@
 import sys
-
+import os
 
 def main(command):
     if command == "test":
@@ -7,9 +7,11 @@ def main(command):
         print("testing")
     elif command == "build":
         print("building")
-        import os
-        os.system('go build ./cmd/bot/main.go')
+        os.system('go build ./cmd/bot/.')
+
+
 if len(sys.argv) == 1:
     print("test / build")
     exit(1)
 main(sys.argv[1])
+

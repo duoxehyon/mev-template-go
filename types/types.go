@@ -4,11 +4,14 @@ import (
 	"crypto/ecdsa"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/ethereum/go-ethereum/rpc"
 	"math/big"
 )
 
 type Config struct {
 	Client        ethclient.Client
+	ClientWss     ethclient.Client
+	RpcClient     rpc.Client
 	PrivateKey    *ecdsa.PrivateKey
 	WalletAddress common.Address
 }

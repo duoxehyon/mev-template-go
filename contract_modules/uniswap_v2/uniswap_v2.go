@@ -57,6 +57,7 @@ func (uniV2 UniswapV2) DecodeTransactionInputData(data []byte) {
 
 	fmt.Printf("Method Name: %s\n", method.Name)
 	fmt.Printf("Method inputs: %v\n", inputsMap)
+	fmt.Println("")
 }
 
 func GetLocalABI(path string) string {
@@ -150,7 +151,7 @@ func queryDataV2(query string) ([]byte, error) {
 	return responseData, nil
 }
 
-// TODO - only works for 18 decimals
+// TODO - only works for 18 decimal tokens
 func FloatStringToBigInt(val string) big.Int {
 	bigval := new(big.Float)
 	bigval.SetString(val)
