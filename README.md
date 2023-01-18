@@ -4,7 +4,7 @@ Simple, robust MEV Bot template for Go.This repo comes with the following featur
 - [x] A robust structure for developing long tail and short tail strategies
 - [x] Mempool monitoring, decoding
 - [x] Using GraphQL for querying uniswap v2 pairs
-- [x] Uniswap v2 module implementation 
+- [x] Uniswap v2 implementation 
 - [x] Contract bindings
 
 # Cmd
