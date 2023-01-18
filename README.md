@@ -26,4 +26,4 @@ global types which require module level access
 internal bot logic
 
 # Building and testing
-run ```python bot-builder.py build ``` for building the bot, test and other commands are to be implemented by the user
+run ```python ./bot-builder.py build ``` for building the bot, test and other commands are to be implemented by the user
