@@ -27,3 +27,10 @@ internal bot logic
 
 ## Building and testing
 run ```python ./bot-builder.py build ``` for building the bot, test and other commands are to be implemented by the user
+
+## Quick Start
+
+- Get rpc urls.
+- Import your private key.
+- For testing, run `python ./bot-builder.py test` (implementation expected by user)
+- For production, run `python ./bog-builder.py build`
