@@ -1,4 +1,4 @@
-
+## MEV Template for Go
 This repo comes with the following features implemented.
 
 - [x] A robust structure for developing long tail and short tail strategies
