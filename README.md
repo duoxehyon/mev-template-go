@@ -6,20 +6,20 @@ This repo comes with the following features implemented.
 - [x] Using GraphQL for querying uniswap v2 pairs
 - [x] Contract bindings
 
-## Cmd
+# Cmd
 for all binaries, eg: bot, data analysis tool , etc... should be the logic should be implemented
 
-##Contract modules
+# Contract modules
 implementations of data collection, math functions, etc... per contract
 
-##Executor
+# Executor
 for building transaction payload, memory sharing to transfer transaction to geth, etc...
 
-##Recon
+# Recon
 for getting live data from blockchain. pending transactions, blocks, contract data, etc...
 
-##Types
+# Types
 global types which require module level access
 
-##Logic
+# Logic
 internal bot logic
