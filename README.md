@@ -1,6 +1,5 @@
 ## MEV Template for Go
-Simple, robust MEV Bot template for Go
-This repo comes with the following features implemented.
+Simple, robust MEV Bot template for Go.This repo comes with the following features and much more.
 
 - [x] A robust structure for developing long tail and short tail strategies
 - [x] Mempool monitoring, decoding
