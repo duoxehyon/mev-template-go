@@ -1,4 +1,5 @@
 # MEV Template for Go
+> Inspired by [DeGatchi](https://twitter.com/DeGatchi)
 Simple, robust MEV Bot template for Go.This repo comes with the following features and more.
 
 - [x] A robust structure for developing long tail and short tail strategies
