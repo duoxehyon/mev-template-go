@@ -5,6 +5,9 @@ Simple, robust MEV Bot template for Go.This repo comes with the following featur
 - [x] Mempool monitoring, decoding
 - [x] Using GraphQL for querying uniswap v2 pairs
 - [x] Uniswap v2 implementation 
+  - [x] Uniswap v2 math functions (`getAmountIn` and `getAmountOut`)
+  - [x] Query of top 1000 pairs in eth sorted by liquidity
+  - [x] Transaction input decoding 
 - [x] Contract bindings
 
 ## `/Cmd`
