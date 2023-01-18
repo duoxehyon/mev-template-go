@@ -10,7 +10,6 @@ import (
 )
 
 func AlertTransaction(cfg types.Config, WatchTo map[common.Address]bool, sendTo chan *geth_types.Transaction) {
-
 	pendingTransactions := make(chan common.Hash)
 	sub, err := cfg.RpcClient.EthSubscribe(context.Background(), pendingTransactions, "newPendingTransactions")
 	if err != nil {
@@ -41,7 +40,6 @@ func AlertTransaction(cfg types.Config, WatchTo map[common.Address]bool, sendTo 
 }
 
 func AlertBlocks(cfg types.Config) {
-
 	headers := make(chan *geth_types.Header)
 	sub, err := cfg.ClientWss.SubscribeNewHead(context.Background(), headers)
 	if err != nil {
