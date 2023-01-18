@@ -3,7 +3,7 @@ package uniswap_v2
 import (
 	"math/big"
 )
-
+// "out of" should be 1000 for example and fee is 997 for uniswap v2
 func (uniV2 UniswapV2) GetAmountIn(amountOut big.Int, reserveIn big.Int, reserveOut big.Int, OutOf big.Int, Fee big.Int) big.Int {
 	if reserveOut.Cmp(big.NewInt(0)) == 0 {
 		return *big.NewInt(0)
