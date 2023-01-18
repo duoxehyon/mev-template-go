@@ -27,3 +27,4 @@ func (uniV2 UniswapV2) GetAmountOut(amountIn big.Int, reserveIn big.Int, reserve
 	divRes := big.NewInt(0).Div(numerator, denominator)
 	return *divRes
 }
+
