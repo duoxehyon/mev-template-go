@@ -8,7 +8,7 @@ Simple, robust MEV Bot template for Go.This repo comes with the following featur
 - [x] Contract bindings
 
 # Cmd
-for all binaries, eg: bot, data analysis tool , etc... should be the logic should be implemented
+for all binaries, eg: bot, data analysis tool , etc... 
 
 # Contract modules
 implementations of data collection, math functions, etc... per contract
