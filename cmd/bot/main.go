@@ -75,7 +75,7 @@ func main() {
 		log.Error("Initialization failed", "error", err)
 	}
 
-	fmt.Println("MEV TEMPLATE IN GO")
+	fmt.Println("Starting...")
 	fmt.Println("")
 
 	uniV2, err := uniswap_v2.New(config, common.HexToAddress(uniV2RouterAddress), common.HexToAddress(uniV2FactoryAddress), "contracts/bindings/uniswap_v2/uniswap_v2_router/UniV2Router.json")
